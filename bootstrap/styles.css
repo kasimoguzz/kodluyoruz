@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+}
+
+
+
+.banner{
+    width: 100%;
+    background-color: navy;
+    height: 100px;
+
+}
+
+ul.menu{
+display: flex;    
+
+}
+
+ul.menu li{
+    padding: 30px 20px;
+}
+p{
+    text-align: center;
+}
+ul.menu li a{
+    text-decoration: none;
+}
+
+.icerik{
+    padding-top: 100px;
+    background-color: #E9ECEF;
+    height: 100vh;
+    padding-left: 20px;
+}
+
+h1,h3{
+    
+    text-align: center;
+    color: red;
+}
+
+ul{
+    text-align: center;
+    
+}
+
+.button{
+    margin-left: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
