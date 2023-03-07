@@ -1,3 +1,4 @@
+
 1-film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
 
 select * from film where replacement_cost BETWEEN 12.99 AND 16.99;
@@ -9,3 +10,6 @@ select first_name,last_name from actor where first_name IN ('penelope','Nick','E
 3-film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99, 2.99, 4.99 VE replacement_cost 12.99, 15.99, 28.99 olma koşullarıyla sıralayınız. ( IN operatörünü kullanınız.)
 
 select * from film where rental_rate IN (0.99,2.99,4.99) AND replacement_cost IN (12.99,15.99, 28.99)
+
+
+
